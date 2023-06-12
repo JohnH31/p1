@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Jonathan Herrera">
+    <meta name="description" content="Esta es una pagina web sobre un ejemplo de como desarrollar en html con css.">
+    <link rel="shortcut icon" href="img/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Formularios</title>
+</head>
+<body>
+    <nav class="menu1">
+        <a href="#personal1" id="enlace">
+            Personal
+        </a>
+        <a href="#cotizar1" id="enlace">
+            Cotizar
+        </a>
+        <a href="#reservar1" id="enlace">
+            Reservar
+        </a>
+        <a href="#comprar1" id="enlace">
+            Comprar
+        </a>
+    </nav>
+    <h1>Llenar el formulario de pedido</h1>
+    <form>
+        <section id="personal1">
+        <fieldset class="set1">
+            <legend>Datos personales</legend>
+            <input type="text" placeholder="ingresa tus Nombres" class="nom1">
+            <input type="text" placeholder="ingresa tus Apellidos" class="ape1">
+            <input type="text" placeholder="ingresa tu Direccion" class="dire1">
+            <input type="number" placeholder="ingresa tu Edad" class="edad1">
+            <input type="submit" value="GUARDAR" class="enviar1">
+        </fieldset>
+    </section>
+        <section id="cotizar1">
+            <h2>Datos para cotizar</h2>
+            <fieldset>
+                <legend>COTIZACION</legend>
+                <input type="text" placeholder="Nombres Producto" class="nom1">
+                <input type="number" placeholder="cantidad" class="ape1">
+                <textarea name="" id="" cols="50" rows="12" placeholder="ingresa tu mensaje"></textarea>
+                <input type="submit" value="COTIZAR" class="enviar1">
+            </fieldset>
+            <h2>Paginas recomendadas para cotizar</h2>
+            <iframe src="https://mueblescoysa.com/categorias.php?idcls=3" width="800" height="600" allow="fullscreen"></iframe>
+            <iframe src="https://solcocinas.com/" width="800" height="600" allow="fullscreen"></iframe>
+        </section>
+
+        <section id="reservar1">
+            <h2>Datos para reservar</h2>
+            <fieldset>
+                <legend>RESERVA</legend>
+                <input type="text" placeholder="Nombres Producto" class="nom1">
+                <input type="number" placeholder="cantidad" class="ape1">
+                <textarea name="" id="" cols="50" rows="12" placeholder="ingresa tu mensaje"></textarea>
+                <input type="submit" value="RESERVAR" class="enviar1">
+            </fieldset>
+        </section>
+
+        <section id="comprar1">
+            <h2>Datos para compra</h2>
+            <fieldset>
+                <legend>COMPRA</legend>
+                <input type="text" placeholder="Nombres Producto" class="nom1">
+                <input type="number" placeholder="cantidad" class="ape1">
+                <textarea name="" id="" cols="50" rows="12" placeholder="ingresa tu mensaje"></textarea>
+                <input type="submit" value="COMPRA" class="enviar1">
+            </fieldset>
+            <h2>Paginas recomendadas para Comprar</h2>
+            <iframe src="https://mueblescoysa.com/categorias.php?idcls=3" width="800" height="600" allow="fullscreen"></iframe>
+            <iframe src="https://solcocinas.com/" width="800" height="600" allow="fullscreen"></iframe>
+        </section>
+    </form>
+    <br>
+        <a href="index.html" id="regresar">REGRESAR AL MENU PRINCIPAL</a>
+    <footer>
+        <a href="contacto.html" id="contac">CONTACTANOS!</a>
+        <p>Jonathan Herrera </p>
+        <p>Esta es nuestra dirección de contacto</p>
+        <p>Ciudad de Guatemala</p>
+        <p>Síguenos en</p>
+        <nav>
+            <a href="#" id="enlace">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="#" id="enlace">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a href="#" id="enlace">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="#" id="enlace">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+        </nav>
+     </footer>
+     <script src="https://kit.fontawesome.com/f955c68031.js" crossorigin="anonymous"></script>
+</body>
+</html>

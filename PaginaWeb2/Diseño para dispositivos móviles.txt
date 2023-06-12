@@ -1,0 +1,73 @@
+@media screen and (max-width:750px){
+    .menu-nav{
+        text-align: center;
+    }
+
+    .hero h1{
+        font-size: 45px;
+    }
+
+    .copy{
+        font-size: 22px;
+    }
+
+    .titulo-seccion{
+        font-size: 28px;
+    }
+
+    .contenedor-sobre-nosotros{
+        justify-content: center;
+    }
+
+    .relatos{
+        width: 80%;
+    }
+
+    .ilustracion{
+        width: 80%;
+        margin-bottom: 40px;
+    }
+
+    .imagen-contenedor{
+        width: 47%;
+    }
+
+    .table-pricing{
+        height: auto;
+    }
+    .pricing{
+        width: 60%;
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and ( max-width: 500px){
+    .contenedor{
+        width: 93%;
+    }
+
+    .menu-nav{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .menu-nav a{
+        margin-left: 0;
+    }
+
+    .hero h1{
+        font-size: 35px;
+    }
+
+    .imagen-contenedor{
+        width: 90%;
+    }
+
+    .pricing{
+        width: 80%;
+    }
+
+    input[type="text"], input[type="email"]{
+        width: 100%;
+    }
+}

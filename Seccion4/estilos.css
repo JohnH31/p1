@@ -1,0 +1,48 @@
+/* Este es un ejercicio */
+/*
+p{
+    color: blue;
+}
+*/
+/*
+.titulo{
+    background:teal;
+    color: white;
+    text-align: center;
+}
+*/
+/*
+#parrafoNum1{
+    background:teal;
+    color: white;
+}
+*/
+/*
+.🙈{
+    color: firebrick;
+}
+*/
+/*
+*{
+    color: brown;
+}
+*/
+/*
+.titulo1, .parrafo{
+    text-align: center;
+}
+*/
+/*
+.principal .titulo{
+    background: skyblue;
+    color: red;
+}
+*/
+/*
+.titulo.titulo3{
+    color: blueviolet;
+}
+*/
+.principal>.titulo{
+    color: brown;
+}
